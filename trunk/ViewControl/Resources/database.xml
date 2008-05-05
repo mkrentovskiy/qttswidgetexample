@@ -1,0 +1,7 @@
+<database>
+	<driver>QMYSQL</driver>
+	<server>localhost</server>
+	<user>root</user>
+	<password>1</password>
+	<name>rscp2</name>
+</database>

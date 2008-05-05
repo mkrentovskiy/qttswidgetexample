@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widgetset>
+
+	<widget style="MainView">
+			<x>0</x>
+			<y>0</y>			
+			<w>1280</w>
+			<h>1024</h>			
+			
+			<background>:/Backgrounds/bg_panel.png</background>	
+	</widget>
+
+	<widget style="FrameSet">
+			<x>0</x>
+			<y>0</y>			
+			<w>963</w>
+			<h>1024</h>			
+	</widget>
+
+	<widget style="CommonFrame">
+			<x>0</x>
+			<y>54</y>			
+			<w>963</w>
+			<h>970</h>			
+	</widget>
+
+	<widget style="VBFrame">
+			<w>96</w>
+			<h>49</h>			
+			<font>
+				<face>Helvetica</face>
+				<size>18</size>
+			</font>
+			<color r="0" g="0" b="0"/>
+			<label>.</label>			
+			<action type='normal'>:/Buttons/Normal/n_folder.png</action>
+			<action type='pressed'>:/Buttons/Pressed/p_folder.png</action>			
+			<action type='selected'>:/Buttons/Selected/s_folder.png</action>			
+	</widget>
+
+	<widget style="PBGo">
+			<checked>1</checked>
+			<w>231</w>
+			<h>132</h>			
+			<action type='normal'>:/Buttons/Normal/n_go.png</action>
+			<action type='pressed'>:/Buttons/Pressed/p_go.png</action>
+			<action type='selected'>:/Buttons/Selected/s_go.png</action>
+	</widget>
+	
+	<widget style="SSpeed">
+			<min>0</min>
+			<max>0.6</max>
+			<step>0.012</step>
+			<pos>0.0</pos>
+			
+			<w>58</w>
+			<h>321</h>						
+			<xs>17</xs>
+			<ys>2</ys>
+			<is>55</is>
+			<js>202</js>
+
+			<background>:/Backgrounds/bg_slider.png</background>
+
+			<PBUp id='U' x="0" y="206">
+				<w>58</w>
+				<h>57</h>
+				<checked>0</checked>			
+				<action type='normal'>:/Buttons/Normal/n_add.png</action>
+				<action type='pressed'>:/Buttons/Pressed/p_add.png</action>
+				<action type='disabled'>:/Buttons/Disabled/d_add.png</action>
+			</PBUp>
+			
+			<PBDown id='D' x="0" y="264">
+				<w>58</w>
+				<h>57</h>			
+				<checked>0</checked>
+				<action type='normal'>:/Buttons/Normal/n_sub.png</action>
+				<action type='pressed'>:/Buttons/Pressed/p_sub.png</action>
+				<action type='disabled'>:/Buttons/Disabled/d_sub.png</action>
+			</PBDown>
+	</widget>
+
+	<widget style="MasterSpeed">
+			<min>0</min>
+			<max>100</max>
+			<step>2</step>
+			<pos>0.0</pos>
+			
+			<w>58</w>
+			<h>321</h>						
+			<xs>17</xs>
+			<ys>2</ys>
+			<is>55</is>
+			<js>202</js>
+
+			<background>:/Backgrounds/bg_slider.png</background>
+
+			<PBUp id='U' x="0" y="206">
+				<w>58</w>
+				<h>57</h>
+				<checked>0</checked>			
+				<action type='normal'>:/Buttons/Normal/n_add.png</action>
+				<action type='pressed'>:/Buttons/Pressed/p_add.png</action>
+				<action type='disabled'>:/Buttons/Disabled/d_add.png</action>
+			</PBUp>
+			
+			<PBDown id='D' x="0" y="264">
+				<w>58</w>
+				<h>57</h>			
+				<checked>0</checked>
+				<action type='normal'>:/Buttons/Normal/n_sub.png</action>
+				<action type='pressed'>:/Buttons/Pressed/p_sub.png</action>
+				<action type='disabled'>:/Buttons/Disabled/d_sub.png</action>
+			</PBDown>
+	</widget>
+
+
+	<widget style="CLDeviceUD">
+			<w>136</w>
+			<h>969</h>						
+			<background>:/Backgrounds/bg_controlline.png</background>
+			
+			<CHLabel x='20' y='232' w='96' h='26'/>
+			<THLabel x='20' y='316' w='96' h='26'/>
+			<SLabel x='20' y='535' w='96' h='26'/>
+			
+			<font>
+				<face>Helvetica</face>
+				<size>18</size>
+			</font>
+			
+			<VBDevice x="19" y="27">
+				<w>96</w>
+				<h>75</h>			
+				<font>
+					<face>Helvetica</face>
+					<size>18</size>
+				</font>
+				<color r="255" g="255" b="255"/>
+				<label>...</label>			
+				<action type='normal'>:/Buttons/Normal/n_num.png</action>
+				<action type='pressed'>:/Buttons/Pressed/p_num.png</action>
+				<action type='disabled'>:/Buttons/Alarm/a_num.png</action>			
+			</VBDevice>
+
+			<PBStartStop id='ITEM' x="40" y="125">
+				<w>58</w>
+				<h>57</h>
+				<checked>1</checked>			
+				<action type='normal'>:/Buttons/Normal/n_item.png</action>
+				<action type='pressed'>:/Buttons/Pressed/p_item.png</action>
+				<action type='selected'>:/Buttons/Selected/s_item.png</action>
+				<action type='alarm'>:/Buttons/Alarm/a_item.png</action>
+			</PBStartStop>
+												
+			<PBUp id='U' x="40" y="378">
+				<w>58</w>
+				<h>57</h>
+				<checked>1</checked>			
+				<action type='normal'>:/Buttons/Normal/n_up.png</action>
+				<action type='pressed'>:/Buttons/Pressed/p_up.png</action>
+				<action type='disabled'>:/Buttons/Disabled/d_up.png</action>
+				<action type='selected'>:/Buttons/Selected/s_up.png</action>
+				<action type='final'>:/Buttons/Final/f_up.png</action>
+				<action type='alarm'>:/Buttons/Alarm/a_up.png</action>	
+				<action type='h_normal'>:/Buttons/Normal/n_open.png</action>
+				<action type='h_pressed'>:/Buttons/Pressed/p_open.png</action>
+				<action type='h_disabled'>:/Buttons/Disabled/d_open.png</action>
+				<action type='h_selected'>:/Buttons/Selected/s_open.png</action>
+				<action type='h_final'>:/Buttons/Final/f_open.png</action>
+				<action type='h_alarm'>:/Buttons/Alarm/a_open.png</action>				
+			</PBUp>
+			
+			<PBDown id='D' x="40" y="437">
+				<w>58</w>
+				<h>57</h>			
+				<checked>1</checked>
+				<action type='normal'>:/Buttons/Normal/n_down.png</action>
+				<action type='pressed'>:/Buttons/Pressed/p_down.png</action>
+				<action type='disabled'>:/Buttons/Disabled/d_down.png</action>
+				<action type='selected'>:/Buttons/Selected/s_down.png</action>
+				<action type='final'>:/Buttons/Final/f_down.png</action>
+				<action type='alarm'>:/Buttons/Alarm/a_down.png</action>				
+				<action type='h_normal'>:/Buttons/Normal/n_close.png</action>
+				<action type='h_pressed'>:/Buttons/Pressed/p_close.png</action>
+				<action type='h_disabled'>:/Buttons/Disabled/d_close.png</action>
+				<action type='h_selected'>:/Buttons/Selected/s_close.png</action>
+				<action type='h_final'>:/Buttons/Final/f_close.png</action>
+				<action type='h_alarm'>:/Buttons/Alarm/a_close.png</action>				
+			</PBDown>
+			
+			<SSpeed id="SSpeed" x="40" y="607"/>
+	</widget>
+	
+	<widget style="CtlKeyboard">
+			<w>318</w>
+			<h>403</h>
+			
+			<xl>105</xl>
+			<yl>22</yl>
+			<wl>174</wl>
+			<hl>55</hl>
+			<font>
+				<face>Courier</face>
+				<size>36</size>
+			</font>
+					
+			<picbutton id='1' x="103" y="203">
+				<w>58</w>
+				<h>57</h>			
+				<checked>0</checked>
+				<action type='normal'>:/Keyboard/Normal/n_1.png</action>
+				<action type='pressed'>:/Keyboard/Pressed/p_1.png</action>
+			</picbutton>
+			<picbutton id='2' x="162" y="203">
+				<w>58</w>
+				<h>57</h>			
+				<checked>0</checked>
+				<action type='normal'>:/Keyboard/Normal/n_2.png</action>
+				<action type='pressed'>:/Keyboard/Pressed/p_2.png</action>
+			</picbutton>
+			<picbutton id='3' x="221" y="203">
+				<w>58</w>
+				<h>57</h>			
+				<checked>0</checked>
+				<action type='normal'>:/Keyboard/Normal/n_3.png</action>
+				<action type='pressed'>:/Keyboard/Pressed/p_3.png</action>
+			</picbutton>
+			<picbutton id='4' x="103" y="145">
+				<w>58</w>
+				<h>57</h>			
+				<checked>0</checked>
+				<action type='normal'>:/Keyboard/Normal/n_4.png</action>
+				<action type='pressed'>:/Keyboard/Pressed/p_4.png</action>
+			</picbutton>
+			<picbutton id='5' x="162" y="145">
+				<w>58</w>
+				<h>57</h>			
+				<checked>0</checked>
+				<action type='normal'>:/Keyboard/Normal/n_5.png</action>
+				<action type='pressed'>:/Keyboard/Pressed/p_5.png</action>
+			</picbutton>
+			<picbutton id='6' x="221" y="145">
+				<w>58</w>
+				<h>57</h>			
+				<checked>0</checked>
+				<action type='normal'>:/Keyboard/Normal/n_6.png</action>
+				<action type='pressed'>:/Keyboard/Pressed/p_6.png</action>
+			</picbutton>
+			<picbutton id='7' x="103" y="86">
+				<w>58</w>
+				<h>57</h>			
+				<checked>0</checked>
+				<action type='normal'>:/Keyboard/Normal/n_7.png</action>
+				<action type='pressed'>:/Keyboard/Pressed/p_7.png</action>
+			</picbutton>
+			<picbutton id='8' x="162" y="86">
+				<w>58</w>
+				<h>57</h>			
+				<checked>0</checked>
+				<action type='normal'>:/Keyboard/Normal/n_8.png</action>
+				<action type='pressed'>:/Keyboard/Pressed/p_8.png</action>
+			</picbutton>
+			<picbutton id='9' x="221" y="86">
+				<w>58</w>
+				<h>57</h>			
+				<checked>0</checked>
+				<action type='normal'>:/Keyboard/Normal/n_9.png</action>
+				<action type='pressed'>:/Keyboard/Pressed/p_9.png</action>
+			</picbutton>
+			<picbutton id='P' x="103" y="261">
+				<w>58</w>
+				<h>57</h>			
+				<checked>0</checked>
+				<action type='normal'>:/Keyboard/Normal/n_p.png</action>
+				<action type='pressed'>:/Keyboard/Pressed/p_p.png</action>
+			</picbutton>
+			<picbutton id='0' x="162" y="261">
+				<w>58</w>
+				<h>57</h>			
+				<checked>0</checked>
+				<action type='normal'>:/Keyboard/Normal/n_0.png</action>
+				<action type='pressed'>:/Keyboard/Pressed/p_0.png</action>
+			</picbutton>
+			<picbutton id='C' x="221" y="261">
+				<w>58</w>
+				<h>57</h>			
+				<checked>0</checked>
+				<action type='normal'>:/Keyboard/Normal/n_c.png</action>
+				<action type='pressed'>:/Keyboard/Pressed/p_c.png</action>
+			</picbutton>
+
+			<picbutton id='SH' x="38" y="86">
+				<w>58</w>
+				<h>57</h>			
+				<checked>1</checked>
+				<action type='normal'>:/Keyboard/Normal/n_sh.png</action>
+				<action type='pressed'>:/Keyboard/Pressed/p_sh.png</action>
+				<action type='selected'>:/Keyboard/Selected/s_sh.png</action>
+			</picbutton>
+			<picbutton id='IP' x="38" y="145">
+				<w>58</w>
+				<h>57</h>			
+				<checked>1</checked>
+				<action type='normal'>:/Keyboard/Normal/n_ip.png</action>
+				<action type='pressed'>:/Keyboard/Pressed/p_ip.png</action>
+				<action type='selected'>:/Keyboard/Selected/s_ip.png</action>
+			</picbutton>
+			<picbutton id='Z' x="38" y="203">
+				<w>58</w>
+				<h>57</h>			
+				<checked>1</checked>
+				<action type='normal'>:/Keyboard/Normal/n_z.png</action>
+				<action type='pressed'>:/Keyboard/Pressed/p_z.png</action>
+				<action type='selected'>:/Keyboard/Selected/s_z.png</action>
+			</picbutton>
+			<picbutton id='S' x="38" y="261">
+				<w>58</w>
+				<h>57</h>			
+				<checked>1</checked>
+				<action type='normal'>:/Keyboard/Normal/n_s.png</action>
+				<action type='pressed'>:/Keyboard/Pressed/p_s.png</action>
+				<action type='selected'>:/Keyboard/Selected/s_s.png</action>
+			</picbutton>
+
+			<picbutton id='V' x="103" y="327">
+				<w>58</w>
+				<h>57</h>			
+				<checked>1</checked>
+				<action type='normal'>:/Keyboard/Normal/n_v.png</action>
+				<action type='pressed'>:/Keyboard/Pressed/p_v.png</action>
+				<action type='selected'>:/Keyboard/Selected/s_v.png</action>
+			</picbutton>
+			<picbutton id='H' x="162" y="327">
+				<w>58</w>
+				<h>57</h>			
+				<checked>1</checked>
+				<action type='normal'>:/Keyboard/Normal/n_h.png</action>
+				<action type='pressed'>:/Keyboard/Pressed/p_h.png</action>
+				<action type='selected'>:/Keyboard/Selected/s_h.png</action>
+			</picbutton>
+
+	</widget>
+</widgetset>

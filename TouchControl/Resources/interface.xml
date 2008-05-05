@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+	<View style="MainView">
+		<FrameSet style="FrameSet">
+			<Frame style="CommonFrame" id="F1">
+				<ControlLine id="DEV00" style="CLDeviceUD" x="0" y="0"/>
+				<ControlLine id="DEV01" style="CLDeviceUD" x="136" y="0"/>
+				<ControlLine id="DEV02" style="CLDeviceUD" x="272" y="0"/>
+				<ControlLine id="DEV03" style="CLDeviceUD" x="408" y="0"/>
+				<ControlLine id="DEV04" style="CLDeviceUD" x="544" y="0"/>
+				<ControlLine id="DEV05" style="CLDeviceUD" x="680" y="0"/>
+				<ControlLine id="DEV06" style="CLDeviceUD" x="816" y="0"/>
+			</Frame>
+			<Frame style="CommonFrame" id="F2">
+				<ControlLine id="DEV10" style="CLDeviceUD" x="0" y="0"/>
+				<ControlLine id="DEV11" style="CLDeviceUD" x="136" y="0"/>
+				<ControlLine id="DEV12" style="CLDeviceUD" x="272" y="0"/>
+				<ControlLine id="DEV13" style="CLDeviceUD" x="408" y="0"/>
+				<ControlLine id="DEV14" style="CLDeviceUD" x="544" y="0"/>
+				<ControlLine id="DEV15" style="CLDeviceUD" x="680" y="0"/>
+				<ControlLine id="DEV16" style="CLDeviceUD" x="816" y="0"/>
+			</Frame>
+			<Frame style="CommonFrame" id="F3">
+				<ControlLine id="DEV20" style="CLDeviceUD" x="0" y="0"/>
+				<ControlLine id="DEV21" style="CLDeviceUD" x="136" y="0"/>
+				<ControlLine id="DEV22" style="CLDeviceUD" x="272" y="0"/>
+				<ControlLine id="DEV23" style="CLDeviceUD" x="408" y="0"/>
+				<ControlLine id="DEV24" style="CLDeviceUD" x="544" y="0"/>
+				<ControlLine id="DEV25" style="CLDeviceUD" x="680" y="0"/>
+				<ControlLine id="DEV26" style="CLDeviceUD" x="816" y="0"/>
+			</Frame>
+			<ValueButton id="F1" style="VBFrame" x="20" y="0" label="1"/>
+			<ValueButton id="F2" style="VBFrame" x="155" y="0" label="2"/>
+			<ValueButton id="F3" style="VBFrame" x="291" y="0" label="3"/>			
+		</FrameSet>
+		<Keyboard id="KBD" style="CtlKeyboard" x="962" y="55"/>
+		<Slider id="MASTER" style="MasterSpeed" x="985" y="485" lx="1084" ly="600" lw="190" lh="100" lface="Helvetica" lsize="45"/>
+		<PicButton id="PBGO" style="PBGo" x="1008" y="866"/>
+	</View>
+</application>

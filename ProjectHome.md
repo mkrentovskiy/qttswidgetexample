@@ -1,0 +1,1 @@
+This is the simple example of custom widgets for touch interface. Its based on Trolltech Qt library.
